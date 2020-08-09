@@ -1,10 +1,10 @@
 import tweepy
 from pprint import pprint
 
-consumer_key = 'bGtONzu6WWoLXXJEQEwQOQH4d'
-consumer_secret = 'ZEJqvajO8otGG7sBPTYkTlQDBekRDxc8swdANVAOqWDjv2HZWD'
-access_token = '890138215759441920-gbby2vzgzCoXbIs3BBniFqBSV6RCThn'
-access_token_secret = 'A2rDZ6dgdDpbB200dWu0Cj6CaBhNnBcCMNYRyLg0KXzuG'
+consumer_key = ''
+consumer_secret = ''
+access_token = '-'
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
